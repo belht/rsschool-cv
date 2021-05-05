@@ -7,7 +7,7 @@ Goal-oriented Trainee Java and Kotlin Developer with no experience in the actual
 
 ##My Skills
 * Java SE, Kotlin
-* HTML, XML, JS
+* HTML, XML
 * Maven, Gradle
 * Java SE
 * Eclipse, Intellij IDEA, Android Studio
