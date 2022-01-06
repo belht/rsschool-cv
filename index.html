@@ -62,50 +62,41 @@
         
               <div class="row" style="background-color: rgb(31, 31, 30); margin: 3px 14px 0px 14px">
                 <div class="column" style="background-color: rgb(31, 31, 30)">
-                    <h4 style="text-align:left; margin: 0">
-                        
-                            Belicheva Elena A.
-                                            <br>
+                    <h2 style="text-align:left; margin: 0">
+                            Belicheva Elena A.<br>
                                             Kurgan, Russia
-                                            
-                        
-                    </h4>
+
+                    </h2>
             </div>
                 <div class="column" style="background-color: rgb(31, 31, 30)">
-                    <h4 style="text-align:right; margin: 0">
-                        
+                    <h2 style="text-align:right; margin: 0">
                             +7 999 99 99
-                                            <br>
-                                            mail to: <a style="color:#D4CCB0" href="mailto:ask@htmlbook.ru?subject=Questions on the CV">bbelht@gmail.com</a>
-                                            
-                    </h4>
-                    
+                            <br>
+                            mail to: <a style="color:#D4CCB0" href="mailto:ask@htmlbook.ru?subject=Questions on the CV">bbelht@gmail.com</a>
+                    </h2>
                 </div>
               </div>
 
-              <nav>
-                <ul class="ul" style="">
+            <nav id="main">
+                <ul class="ul, row">
                     <li style="margin:10px 10px 10px 10px"><a href="#education">Education</a></li>
                     <li style="margin:10px 10px 10px 10px"><a href="#lang">Languages</a></li>
                     <li style="margin:10px 10px 10px 10px"><a href="#code">A code example</a></li>
-                    <li style="margin:10px 10px 10px 10px"><a href="">Пункт меню</a></li>
-                    <li style="margin:10px 10px 10px 10px"><a href="">Пункт меню</a></li>
-                    <li style="margin:10px 10px 10px 10px"><a href="">Пункт меню</a></li>
-                    <li style="margin:10px 10px 10px 10px"><a href="">Пункт меню</a></li>
+                    <li style="margin:10px 10px 10px 10px"><a href="#about">About me</a></li>
+                    <li style="margin:10px 10px 10px 10px"><a href="#skills">My skills</a></li>
+                    <li style="margin:10px 10px 10px 10px"><a href="#more">More</a></li>
                     </ul>
               </nav>
-            
         </header>
 
-        <main>
-            
-            <div id="main">
+        <main id="main">
+
                 <div class="row">
 
                     <!-- Edu -->
-                    <div class="column">
-                        <h4 style="color:#1F1F1E"><a name="education"></a>Education</h4>
-                        <h5 style="text-align: left;">
+                    <div class="column" style="border: 2px solid black; background: none; padding: 0">
+                        <h2 style="margin: 0; padding: 0; color:#1F1F1E"><a name="education"></a>Education</h2>
+                        <h4 style="text-align: left; color:#333; padding: 2px;">
                             <p>
                                 Professional Retraining course in Voronezh Institute of High Technologies
                                     <br>
@@ -124,36 +115,36 @@
                                 <br>
                                 July 2011
                             </p>
-                        </h5>
+                        </h4>
                     </div>
                     <!-- End Edu -->
 
                     <!-- About -->
                     <div class="merge3" style="border: 2px solid black; background: none; padding: 0">
-                        <h2 style="background-color: black; margin: 0; padding: 0">About</h2>
+                        <h2 style="background-color: black; margin: 0; padding: 0"><a name="about"></a>About</h2>
                         
                         <p>Hello there! This is Elena. <br> I am a tester who just like software and challenges for improving my skills. I'm interested in QA, back-end and mobile development.</p>
                     </div>
                     
-                    <div class="column"><h4 style="color:#1F1F1E">
-                        <a name="lang"></a>Languages</h4>
+                    <div class="column" style="margin: 0; padding: 0; border: #1F1F1E solid 2px;"><h2 style="color:#1F1F1E">
+                        <a name="lang"></a>Languages</h2>
                         Russian <div class="progress"> <div class="progress__bar" style="width: 100%">Native</div></div>
                         <br>
                         <p>English</p>
 
                         
 
-                        <h4 style="color:#1F1F1E; text-align:left" >Speaking</h4>
+                        <h4 style="color:#1F1F1E; text-align:left; padding: 2px; margin: 0" >Speaking</h4>
                         <div class="progress"> 
                             <div class="progress__bar" style="width: 43%">B1</div>
                           </div>
 
-                          <h4 style="color:#1F1F1E; text-align:left">Writing</h4>
+                          <h4 style="color:#1F1F1E; text-align:left; padding: 2px; margin: 0">Writing</h4>
                           <div class="progress"> 
                             <div class="progress__bar" style="width: 55%">B1+</div>
                           </div>
 
-                          <h4 style="color:#1F1F1E; text-align:left">Listening & Reading</h4>
+                          <h4 style="color:#1F1F1E; text-align:left; padding: 2px; margin: 0">Listening & Reading</h4>
                           <div class="progress">
                             <div class="progress__bar" style="width: 72%">B2+</div>
                           </div> 
@@ -162,23 +153,39 @@
                     </div>
                    
                           </div>
-
                           <div class="row">
-                            <div class="merge3" style="border: 2px solid black; background: none; padding: 0">
-                                <h2 style="background-color: black; margin: 0; padding: 0"><a name="code"></a>A CODE EXAMPLE</h2>
-                                <pre style="text-align: left"><code>
+                            <div class="column" style="border: 2px solid black; background: none; padding: 0">
+                                <h4 style="background-color: rgb(218, 113, 95); margin: 0; padding: 0"> <a name="skills"></a>    Technical Skills</h4>
+                                <ul style="background:rgb(213, 204, 176); text-align: left;
+                                color: rgb(49, 49, 49)">
+                                    <li>Java basics
+                                    </li>
+                                    <li>Kotlin basics</li>
+                                    <li>HTML & CSS basics</li>
+                                    
+                                    </ul>
+                                </div>
+                          <div class="merge3" style="border: 2px solid black; background: none; padding: 0">
+                            
+                            <h2 style="background-color: black; margin: 0; padding: 0"><a name="code"></a>A CODE EXAMPLE</h2>
+                            <pre style="text-align: left"><code>
 public class Kata {
 
-    public static String solution(String str) {
-        String result = "";
-        for (int i = 0; i < str.length(); i++) {
-            result = str.charAt(i) + result;
-        }
-    return result;
+public static String solution(String str) {
+    String result = "";
+    for (int i = 0; i < str.length(); i++) {
+        result = str.charAt(i) + result;
     }
+return result;
 }
-                                </code></pre>
-                            </div>
+}
+                            </code></pre>
+                        </div> </div>
+
+                          
+                            
+                          <div class="row">
+                            
 
                             <div class="column" style="border: 2px solid black; background: none; padding: 0">
                                 <h4 style="background-color: rgb(218, 113, 95); margin: 0; padding: 0">SOFTWARE SKILLS</h4>
@@ -195,34 +202,43 @@ public class Kata {
 
                             <div class="column" style="border: 2px solid black; background: none; padding: 0">
                                 <h4 style="background-color: rgb(218, 113, 95); margin: 0; padding: 0">Skills</h4>
-                                <ul>
-                                    <li><a href="">Linux</a></li>
-                                    <li><a href="">Winda</a></li>
-                                    <li><a href="">Пункт меню</a></li>
+                                <ul style="background:rgb(213, 204, 176); text-align: left;
+                                color: rgb(49, 49, 49)">
+                                    <li>Communication
+                                    </li>
+                                    <li>Corrective and preventative actions</li>
+                                    <li>Document control</li>
+                                    <li>Knowledgeable about QC and JIRA testing tools</li>
+                                    <li>Solid understanding of test case design, implementation, and reporting</li>
+                                    <li>Understands regression testing</li>
                                     </ul>
                                 </div>
-                                  </div>
+
+                                
+                                  
         </main>
 
       <footer id="main" style="background: rgb(213,204,176)">
           <div class="row">
-            <div class="column">
-              <p>
-                WANT MORE INFORMATION?
-              </p>
+            <div class="column" style="background-color: #333; margin: 0; padding: 0">
+              
+                <h2 style="color: rgb(218, 113, 95)"> <a name="more"></a>WANT MORE INFORMATION?</h2>
+              
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="border:#1F1F1E 2px solid">
             <div class="column">
             <div class="row">
-                <div class="column"></div>
                 <div class="column"><a href="https://github.com/belht">See more on Github </a></div>
+                <div class="column">contact me: <a href="https://t.me/bbelht">@bbelht</a></div>
+                
+                <div class="column">mail me: <a href="mailto:ask@htmlbook.ru?subject=Questions on the CV">bbelht@gmail.com</a></div>
                 <div class="column">belht &copy; 2022</div>
                 <div class="column">
                     <a href="https://rs.school/js-stage0/">
                     <img src="https://rs.school/images/rs_school_js.svg" alt="RS School's logo" width="60" height="23"></a>
-                </div>
-                <div class="column"></div>
+                </div></div>
+                
             </div>
             </div>
           </div>
