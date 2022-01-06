@@ -1,0 +1,46 @@
+.row{display: flex; 
+    flex-flow: row wrap}
+
+.column{flex:1}
+
+.merge2{flex:2}
+.merge3{flex:3}
+.merge4{flex:4}
+
+
+.row,.merge2,.merge3,.merge4 {margin:0 8px} 
+
+
+
+.nested{padding:0 !important;
+     margin:0 !important; 
+     border: 0 !important}
+
+.column1{
+    color: #fff;
+    padding: 15px;
+    margin: 10px 8px 10px 8px;
+    text-align: center;
+    background: rgb(31, 31, 30);
+}
+body {
+    background: black;
+  }
+  .progress {
+    margin: 10px auto;
+    padding: 2px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border: 3px solid #000;
+    border-radius: 20px;
+    height: 30px;
+  }
+  
+  .progress .progress__bar {
+    height: 100%;
+    width: 5%;
+    border-radius: 15px;
+    background: 
+      #c07959;
+  }
