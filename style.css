@@ -44,4 +44,9 @@ h4{
 .dline {
   line-height: 1.5;
  }
-
+ .main {
+    margin: 0 auto;
+    width: 80%;
+    padding: 8px;
+    background-color: #D4CCB0;
+  }

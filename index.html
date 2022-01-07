@@ -24,12 +24,7 @@
           color: #1F1F1E;
         }
   
-        #main {
-          margin: 0 auto;
-          width: 80%;
-          padding: 8px;
-          background-color: #D4CCB0;
-        }
+        
   
         .column,
         .merge2,
@@ -45,7 +40,7 @@
 <body>
     <!-- Grid -->
     <header>
-      <div id="main" style="background: rgb(213,204,176)">
+      <div class="main" style="background: rgb(213,204,176)">
         <div class="row">
           <div class="column" style="border:0; background:rgb(218, 113, 95); margin: 10px 8px 3px 8px">
               <img src="img/avatar.png" alt="avatar" class="passe-partout"/>
@@ -75,7 +70,7 @@
                 </div>
               </div>
 
-            <nav id="main">
+            <nav class="main">
                 <ul class="ul, row">
                     <li style="margin:10px 10px 10px 10px"><a href="#education">Education</a></li>
                     <li style="margin:10px 10px 10px 10px"><a href="#lang">Languages</a></li>
@@ -88,7 +83,7 @@
     </div>
     </header>
 
-        <main id="main">
+        <main class="main">
 
                 <div class="row">
 
@@ -124,8 +119,8 @@
                         
                         <p>Hello there! This is Elena. <br> I am a tester who just like software and challenges for improving my skills. I'm interested in QA, back-end and mobile development.</p>
                     </div>
-                    
-                    <div class="column" style="margin: 0; padding: 0; border: #1F1F1E solid 2px;"><h2 style="color:#1F1F1E">
+                    <!--Start Languages -->
+                    <div class="column" style="border: 2px solid black; background: none; padding: 0"><h2 style="color:#1F1F1E">
                         <a id="lang"></a>Languages</h2>
                         Russian <div class="progress"> <div class="progress__bar" style="width: 100%">Native</div></div>
                         <br>
@@ -147,7 +142,7 @@
                           <div class="progress">
                             <div class="progress__bar" style="width: 72%">B2+</div>
                           </div> 
-
+                        <!-- End Languages -->
                           
                     </div>
                    
@@ -221,7 +216,7 @@ public class Kata {
                                   
         </main>
 
-      <footer id="main" style="background: rgb(213,204,176)">
+      <footer class="main" style="background: rgb(213,204,176)">
           <div class="row">
             <div class="column" style="background-color: #333; margin: 0; padding: 0">
               
